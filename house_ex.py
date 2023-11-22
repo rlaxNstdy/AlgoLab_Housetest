@@ -73,7 +73,7 @@ validation_result = House.validate_house(house2)
 print(f"House Validation Result: {'Valid' if validation_result else 'Invalid'}")
 
 # Testing the new methods
-house3.paint_house("Red")
+house1.paint_house("Red")
 house3.add_garage()
 house1.add_garage()  # Attempting to add a garage to a house that already has one
 house2.set_address("456 Oak St")
